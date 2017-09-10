@@ -8,6 +8,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="impact.ttf">
+            <string>Impact</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Gepy-->
         <scene sceneID="tne-QT-ifu">
@@ -21,17 +26,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7KnmJ6x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q6h-7Z-W8v">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7KnmJ6x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q6h-7Z-W8v">
                                 <rect key="frame" x="0.0" y="47" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAn-An-SAC">
+                                <rect key="frame" x="0.0" y="52" width="375" height="87"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="44"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="0.99410667860000002" blue="0.95695270980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0h-wq-4Gb">
+                                <rect key="frame" x="0.0" y="139" width="375" height="83"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="44"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="0.99410667860000002" blue="0.95695270980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Q6h-7Z-W8v" secondAttribute="trailing" id="19T-5O-lld"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Q6h-7Z-W8v" secondAttribute="bottom" constant="-3" id="CCa-N8-6k6"/>
-                            <constraint firstItem="Q6h-7Z-W8v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FCU-lW-Xwq"/>
-                            <constraint firstItem="Q6h-7Z-W8v" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="47" id="uIq-qW-zVh"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Gepy" id="AIz-Vt-aER">
                         <barButtonItem key="rightBarButtonItem" image="cogwheel-outline_318-61058.png" id="e65-xr-3fA">
@@ -41,6 +57,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="secondClass" destination="V0h-wq-4Gb" id="lbb-Vy-BYa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
