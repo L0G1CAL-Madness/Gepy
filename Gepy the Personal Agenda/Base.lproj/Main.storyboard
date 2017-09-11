@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="17A264c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aLf-db-FlE">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -23,24 +24,56 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7KnmJ6x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q6h-7Z-W8v">
-                                <rect key="frame" x="0.0" y="47" width="375" height="623"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7KnmJ6x.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q6h-7Z-W8v">
+                                <rect key="frame" x="0.0" y="47" width="320" height="524"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAn-An-SAC">
-                                <rect key="frame" x="0.0" y="52" width="375" height="87"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAn-An-SAC">
+                                <rect key="frame" x="0.0" y="46" width="320" height="73"/>
                                 <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="44"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="1" green="0.99410667860000002" blue="0.95695270980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0h-wq-4Gb">
-                                <rect key="frame" x="0.0" y="139" width="375" height="83"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LsX-bt-vgZ">
+                                <rect key="frame" x="0.0" y="119" width="320" height="72"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="44"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="0.99410667860000002" blue="0.95695270980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjK-nN-plP">
+                                <rect key="frame" x="0.0" y="191" width="320" height="73"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="44"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="0.99410667860000002" blue="0.95695270980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O2t-gR-2aW">
+                                <rect key="frame" x="0.0" y="264" width="320" height="72"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="44"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="0.99410667860000002" blue="0.95695270980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dz-qT-yrO">
+                                <rect key="frame" x="0.0" y="336" width="320" height="73"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="44"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="0.99410667860000002" blue="0.95695270980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPF-Pf-13A">
+                                <rect key="frame" x="0.0" y="409" width="320" height="72"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="44"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="0.99410667860000002" blue="0.95695270980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMn-jQ-XRS">
+                                <rect key="frame" x="0.0" y="497" width="320" height="72"/>
                                 <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="44"/>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="1" green="0.99410667860000002" blue="0.95695270980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -48,6 +81,40 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gjK-nN-plP" firstAttribute="height" secondItem="GAn-An-SAC" secondAttribute="height" id="0eb-JC-Ibz"/>
+                            <constraint firstItem="GAn-An-SAC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="46" id="0jY-3U-HiX"/>
+                            <constraint firstItem="LsX-bt-vgZ" firstAttribute="trailing" secondItem="Q6h-7Z-W8v" secondAttribute="trailing" id="3GM-gQ-jcu"/>
+                            <constraint firstItem="4dz-qT-yrO" firstAttribute="top" secondItem="O2t-gR-2aW" secondAttribute="bottom" id="3aR-Vq-aCw"/>
+                            <constraint firstItem="rPF-Pf-13A" firstAttribute="top" secondItem="4dz-qT-yrO" secondAttribute="bottom" id="4pv-O0-3Qa"/>
+                            <constraint firstItem="gjK-nN-plP" firstAttribute="centerX" secondItem="GAn-An-SAC" secondAttribute="centerX" id="6I7-fK-ot4"/>
+                            <constraint firstItem="gjK-nN-plP" firstAttribute="top" secondItem="LsX-bt-vgZ" secondAttribute="bottom" id="7Qg-Rd-1RO"/>
+                            <constraint firstItem="dMn-jQ-XRS" firstAttribute="top" secondItem="4dz-qT-yrO" secondAttribute="bottom" constant="88" id="7th-ls-CW0"/>
+                            <constraint firstItem="Q6h-7Z-W8v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="A5P-sF-uip"/>
+                            <constraint firstAttribute="bottom" secondItem="Q6h-7Z-W8v" secondAttribute="bottom" constant="-3" id="AHi-43-mnD"/>
+                            <constraint firstItem="LsX-bt-vgZ" firstAttribute="centerX" secondItem="GAn-An-SAC" secondAttribute="centerX" id="CLZ-Ef-Ecx"/>
+                            <constraint firstItem="dMn-jQ-XRS" firstAttribute="height" secondItem="GAn-An-SAC" secondAttribute="height" id="CTl-X6-LNa"/>
+                            <constraint firstItem="rPF-Pf-13A" firstAttribute="height" secondItem="GAn-An-SAC" secondAttribute="height" id="EFk-KQ-LmQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rPF-Pf-13A" secondAttribute="bottom" constant="87" id="I0q-FO-IMz"/>
+                            <constraint firstItem="Q6h-7Z-W8v" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="47" id="Jsx-r9-jvi"/>
+                            <constraint firstItem="4dz-qT-yrO" firstAttribute="width" secondItem="GAn-An-SAC" secondAttribute="width" id="O14-y5-hNo"/>
+                            <constraint firstItem="LsX-bt-vgZ" firstAttribute="leading" secondItem="Q6h-7Z-W8v" secondAttribute="leading" id="RkS-GL-9dQ"/>
+                            <constraint firstItem="O2t-gR-2aW" firstAttribute="width" secondItem="GAn-An-SAC" secondAttribute="width" id="Thd-Wt-X0H"/>
+                            <constraint firstItem="LsX-bt-vgZ" firstAttribute="height" secondItem="GAn-An-SAC" secondAttribute="height" id="XDs-lP-QXW"/>
+                            <constraint firstItem="LsX-bt-vgZ" firstAttribute="width" secondItem="GAn-An-SAC" secondAttribute="width" id="XJZ-5M-AdX"/>
+                            <constraint firstItem="4dz-qT-yrO" firstAttribute="height" secondItem="GAn-An-SAC" secondAttribute="height" id="bFD-Dp-QhP"/>
+                            <constraint firstItem="4dz-qT-yrO" firstAttribute="centerX" secondItem="GAn-An-SAC" secondAttribute="centerX" id="c36-Aq-8W2"/>
+                            <constraint firstItem="dMn-jQ-XRS" firstAttribute="width" secondItem="GAn-An-SAC" secondAttribute="width" id="cqz-P0-Qgz"/>
+                            <constraint firstItem="O2t-gR-2aW" firstAttribute="top" secondItem="gjK-nN-plP" secondAttribute="bottom" id="d29-F0-1f5"/>
+                            <constraint firstAttribute="trailing" secondItem="Q6h-7Z-W8v" secondAttribute="trailing" id="e35-pU-ad1"/>
+                            <constraint firstItem="dMn-jQ-XRS" firstAttribute="centerX" secondItem="GAn-An-SAC" secondAttribute="centerX" id="j4W-Hg-hRj"/>
+                            <constraint firstItem="rPF-Pf-13A" firstAttribute="width" secondItem="GAn-An-SAC" secondAttribute="width" id="ldS-u1-T2f"/>
+                            <constraint firstItem="O2t-gR-2aW" firstAttribute="height" secondItem="GAn-An-SAC" secondAttribute="height" id="oEj-Gp-rSM"/>
+                            <constraint firstItem="rPF-Pf-13A" firstAttribute="centerX" secondItem="GAn-An-SAC" secondAttribute="centerX" id="p0Y-Cl-6za"/>
+                            <constraint firstItem="gjK-nN-plP" firstAttribute="width" secondItem="GAn-An-SAC" secondAttribute="width" id="pQE-gW-HXj"/>
+                            <constraint firstItem="LsX-bt-vgZ" firstAttribute="top" secondItem="GAn-An-SAC" secondAttribute="bottom" id="qtb-rh-WXE"/>
+                            <constraint firstItem="O2t-gR-2aW" firstAttribute="centerX" secondItem="GAn-An-SAC" secondAttribute="centerX" id="rcI-4V-bAL"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Gepy" id="AIz-Vt-aER">
                         <barButtonItem key="rightBarButtonItem" image="cogwheel-outline_318-61058.png" id="e65-xr-3fA">
@@ -58,7 +125,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="secondClass" destination="V0h-wq-4Gb" id="lbb-Vy-BYa"/>
+                        <outlet property="firstClass" destination="GAn-An-SAC" id="K5G-yy-Qr5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -74,7 +141,7 @@
                         <viewControllerLayoutGuide type="bottom" id="8sG-hq-Pe9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vdc-nu-eBj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A4g-Vl-eSD">

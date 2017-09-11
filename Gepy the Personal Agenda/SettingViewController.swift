@@ -51,6 +51,7 @@ class SettingViewController: UIViewController {
     //Call back the selections from last time to fill text fields
     let array_get = UserDefaults.standard.array(forKey: "savedClassDetails") ?? [String]()
 
+    if (array_get.isEmpty == false){
     //Fill text fields from previous enter
    firstClass.text = array_get[0] as? String
    secondClass.text = array_get[1] as? String
@@ -59,6 +60,7 @@ class SettingViewController: UIViewController {
    fifthClass.text = array_get[4] as? String
    sixthClass.text = array_get[5] as? String
    seventhClass.text = array_get[6] as? String
+    }
     }
 
  
