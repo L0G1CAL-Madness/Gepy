@@ -15,6 +15,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var firstClass: UIButton!
 
     @IBOutlet weak var secondClass: UIButton!
+    
+    @IBOutlet weak var thirdClass: UIButton!
+
+    @IBOutlet weak var fourthClass: UIButton!
+
+    @IBOutlet weak var fifthClass: UIButton!
+    
+    @IBOutlet weak var sixthClass: UIButton!
+    
+    @IBOutlet weak var seventhClass: UIButton!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,11 +37,14 @@ class ViewController: UIViewController {
         self.navigationController?.navigationBar.barTintColor = UIColor (red: 38/255, green: 38/255, blue: 38/255, alpha: 1.0)
          self.navigationController?.navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont(name: "impact", size: 30)!, NSForegroundColorAttributeName : UIColor.white]
        
-      
-       firstClass.setTitle(array[0] as? String, for: [])
-        
+             firstClass.setTitle(array[0] as? String, for: [])
+             secondClass.setTitle(array[1] as? String, for: [])
 
-        
+             thirdClass.setTitle(array[2] as? String, for: [])
+             fourthClass.setTitle(array[3] as? String, for: [])
+            fifthClass.setTitle(array[4] as? String, for: [])
+            sixthClass.setTitle(array[5] as? String, for: [])
+            seventhClass.setTitle(array[6] as? String, for: [])
     }
 
     override func didReceiveMemoryWarning() {

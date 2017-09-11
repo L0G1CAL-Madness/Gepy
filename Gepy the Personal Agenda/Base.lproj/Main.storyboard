@@ -125,7 +125,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="fifthClass" destination="4dz-qT-yrO" id="hoN-gn-mKR"/>
                         <outlet property="firstClass" destination="GAn-An-SAC" id="K5G-yy-Qr5"/>
+                        <outlet property="fourthClass" destination="O2t-gR-2aW" id="8n9-bs-5Ha"/>
+                        <outlet property="secondClass" destination="LsX-bt-vgZ" id="gXR-cn-fxy"/>
+                        <outlet property="seventhClass" destination="dMn-jQ-XRS" id="C6q-wq-z48"/>
+                        <outlet property="sixthClass" destination="rPF-Pf-13A" id="pJz-UF-K9r"/>
+                        <outlet property="thirdClass" destination="gjK-nN-plP" id="LVy-l3-TvT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
